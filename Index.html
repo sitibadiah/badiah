@@ -1,0 +1,507 @@
+<html> 
+<head> 
+<title>Atribut Tag <P></title> 
+</head> 
+<body> 
+<p align="left"><b>Teks ini berada di kiri</p> 
+<p align="center">Teks ini berada di tengah</p> 
+<p align="right">Teks ini berada di kanan</b></p> 
+<p align="justify">Paragraph ini bertipe justify. Dimana semua teks akan dibuat 
+lurus sama dengan batas tepi halaman. Oh ya, tag &lt;p&gt;&lt;/p&gt; merupakan 
+default atau bentuk baku tag &lt;p&gt;&lt;/p&gt; dimana teks atau paragraf akan 
+berformat rata kiri. Jika anda tidak memberi atribut <i>align</i> pada tag 
+&lt;p&gt; maka browser akan menganggap rata kiri.</p> 
+</body> 
+</html> 
+<html> 
+<head> 
+<title>Atribut dari Tag Font</tile> 
+</head> 
+<body> 
+<p><font face="Arial">Ini Font Arial</font></p> 
+<p><font face="Arial"><i>Ini Font Arial dan miring</i></font></p> 
+<p><font face="verdana" size="4" color="blue"><b>Ini Font Verdana berukuran 12 pt 
+berwarna biru sekaligus tebal</b></font> 
+<p align="center"><font face="Tahoma" color="red"><b>Ini Font Tahoma berwarna 
+merah, tebal dan berada di tengah</b></font><p> 
+<p align="center"><font face="Arial" color="red">Ini Font Arial berwarna Merah, 
+</font><font face="Verdana" color="blue">Sedangkan ini adalah font Verdana 
+berwarna biru</font></p> 
+</body> 
+</html> 
+<html> 
+<head> 
+<title>Atribut dari tag tabel</title> 
+</head> 
+<body> 
+<p><b>Membuat Tabel</b></p> 
+<table border="1" bordercolor="black" bgcolor="white" cellpadding="8" 
+cellspacing="0" width="100%"> 
+<tr> <!-- <tr> artinya membuat sebuah baris --> 
+ <td>Ini kolom 1 pada baris 1</td> <!-- <td> = membuat sebuah kolom. --> 
+ <td>Ini kolom 2 pada baris 1</td> <!-- </td> mengakhiri sebuah kolom --> 
+</tr> <!-- mengakhiri sebuah baris --> 
+<tr> 
+ <td>Ini kolom 1 pada baris 2</td> 
+ <td>Ini kolom 2 pada baris 2</td> 
+</tr> 
+</table> 
+<p><b>Contoh 2: Membuat Tabel</b></p> 
+<table border="1" bordercolor="black" bgcolor="white" cellpadding="8" 
+cellspacing="0" width="100%"> 
+<tr bgcolor="yellow"> 
+ <td align="center">Ini kolom 1 pada baris 1</td> 
+ <td align="right">Ini kolom 2 pada baris 1</td> 
+</tr> 
+<tr> 
+ <td align="center" bgcolor="red"><font color="white">Ini kolom 1 pada baris 
+2</font></td> 
+ <td align="right">Ini kolom 2 pada baris 2</td> 
+</tr> 
+</table> 
+<p><b><font color="blue">Tabel sebagai bingkai dari paragraf</font></b></p> 
+<table border="1" style="border-collapse: collapse" cellpadding="8" 
+bgcolor="white" width="100%" bordercolor="black"> 
+<tr> 
+ <td><p>Tabel memiliki peranan sangat penting dalam tampilan sebuah situs web. 
+Tanpa tabel desainer akan mengalamai kesulitan dalam mendesain sebuah halaman 
+web.</p> 
+ <p>Kalau anda perhatikan website yan memiliki tampilan yang tersusun rapi. 
+Sebenarnya itu adalah tabel hanya saja atribut <font
+color="red"><b>border="0"</b></font> sehingga tabel seakan tidak 
+ada(transparan).</p> 
+ <p>Situs rahasia-webmaster.com banyak menggunakan tabel sebagai bingkai 
+paragraf. Perlu diingat tag-tag pada html dapat mengandung unsur yang sama. 
+Contohnya di dalam sebuah tabel terdapat tabel lagi. Di bawah ini adalah tabel 
+yang berada di dalam tabel utama</p> 
+ <p align="center"> 
+ <!-- tag <table> untuk tabel anak --> 
+ <table border="1" style="border-collapse: collapse" bgcolor="white" 
+bordercolor="black" cellpadding="8" width="80%"> 
+ <tr bgcolor="yellow"> 
+ <td><b>Nama Barang</b></td> 
+ <td><b>Harga Barang</b></td> 
+ </tr> 
+ <tr> 
+ <td>Monitor</td><td>Rp. 500.000,-</td> 
+ </tr> 
+ <tr> 
+ <td>CDRW</td><td>Rp. 245.000,0</td> 
+ </tr> 
+ <!-- </table ini untuk menutup tabel anak --> 
+ </table> 
+</tr> 
+</table> 
+<html> 
+
+<head> 
+
+<title>David Joko Website</title> 
+
+</head> 
+
+<body bgcolor="#D7E7F3"> 
+
+<table border="1" style="border-collapse: collapse" width="100%" cellpadding="8" 
+
+bordercolor="black"> 
+
+<tr> 
+
+ <td width="20%"> 
+
+ <!-- ini tabel foto --> 
+
+ <table border="1" style="border-collapse: collapse" width="100%" 
+
+cellpadding="8" bordercolor="black"> 
+
+ <tr> 
+
+ <td align="center"><img border="1" height="100 " width="100" src=""></td> 
+
+ </tr> 
+
+ </table> 
+
+ <p></p> <!-- untuk memberi jarak --> 
+
+ <!-- ini tabel menu --> 
+
+ <table border="1" style="border-collapse: collapse" width="100%" 
+
+cellpadding="8" bordercolor="black"> 
+
+ <tr> 
+
+ <td>Ini nanti untuk link</td> 
+
+ </tr> 
+
+ </table> 
+
+ </td> 
+
+<!-- ini untuk kolom 2 tabel utama --> 
+
+ <td valign="top"><p align="center"><b>SELAMAT DATANG</b></p></td> 
+
+</tr> 
+
+</table> 
+
+ 
+
+</body> 
+<html> 
+
+<head> 
+
+<title>David Joko Website</title> 
+
+</head> 
+
+<body bgcolor="#D7E7F3"> 
+
+<font face="verdana"> 
+
+<table border="0" style="border-collapse: collapse" width="100%" cellpadding="8" 
+
+bordercolor="black">
+<tr> 
+
+ <td width="20%"> 
+
+ <!-- ini tabel foto --> 
+
+ <table border="0" style="border-collapse: collapse" width="100%" 
+
+cellpadding="8" bordercolor="black"> 
+
+ <tr> 
+
+ <td align="center"><img border="1" height="100" width="150" 
+
+src="gambar/fotoku.jpg"></td> 
+
+ </tr> 
+
+ </table> 
+
+ <p><hr></p> <!-- untuk memberi jarak --> 
+
+ <!-- ini tabel menu --> 
+
+ <table border="0" style="border-collapse: collapse" width="100%" 
+
+cellpadding="8" bordercolor="black"> 
+
+ <tr> 
+
+ <td><font size="2"> 
+
+ <ul> 
+
+ <li><a href="profil.html">Profil</a></li> 
+
+ <li><a href="kegiatan.html">Kegiatan</a></li> 
+
+ <li><a href="foto.html">Foto-foto</a></li> 
+
+ <li><a href="puisi.html">Puisi Teman</a></li> 
+
+ <li><a href="mailto: davidjoko@yahoo.com">Email saya</a></li> 
+
+ </ul> 
+
+ </td> 
+
+ </tr> 
+
+ </table> 
+
+ </td> 
+
+<!-- ini untuk kolom 2 tabel utama --> 
+
+ <td valign="top"> 
+
+ <p align="center"><font size="4"><b>SELAMAT DATANG DI WEBSITE DAVID 
+
+JOKO</b></font></p> 
+
+ 
+
+ <p><font size="2">Saya ucapkan terima kasih atas kunjungan anda ke website 
+
+saya. Pada website ini anda dapat melihat profil data diri saya dan kegiatan￾kegiatan yang saya lakukan. Di bawah ini adalah puisi yang saya buat beberapa 
+
+waktu lalu. Inspirasi puisi ini datang ketika saya termenung sendirian dan 
+
+memandang langit nan luas.</font></p> 
+
+ 
+
+ <p><b>Aku dan Tuhanku</b></p> 
+
+ <p><font size="2"> 
+
+ <i>Ketika aku memandang langit<br> 
+
+ aku bertanya pada pada diriku<br> 
+
+ aku...<br> 
+
+ <br> 
+
+ siapakah aku sebenarnya?<br> 
+
+ darimanakah aku berasal?<br> 
+
+ jauhkah aku dari Tuhanku?<br> 
+
+ aku....<br> 
+
+ <br> 
+
+ Tuhan...<br> 
+
+ betapa kuasanya engkau<br> 
+
+ menciptakan langit dan bumi<br> 
+
+ untuk menghidupi orang-orang<br> 
+
+ seperti aku<br> 
+
+ <br> 
+
+ aku...<br> 
+
+ apakah aku sudah mengabdi kepadamu?<br>
+rasanya hanya aku dan Engkau yang tahu<br> 
+
+ </i></font></p> 
+
+ </td> 
+
+</tr> 
+
+</table> 
+
+ 
+
+</body> 
+
+</html>
+
+ <html> 
+
+<head> 
+
+<title>David Joko Website</title> 
+
+</head> 
+
+<body bgcolor="#D7E7F3"> 
+
+<table border="1" style="border-collapse: collapse" width="100%" cellpadding="8" 
+
+bordercolor="black"> 
+
+<tr> 
+
+ <td width="20%"> 
+
+ <!-- ini tabel foto --> 
+
+ <table border="1" style="border-collapse: collapse" width="100%" 
+
+cellpadding="8" bordercolor="black"> 
+
+ <tr> 
+
+ <td align="center"><img border="1" height="100 " width="100" src=""></td> 
+
+ </tr> 
+
+ </table> 
+
+ <p></p> <!-- untuk memberi jarak --> 
+
+ <!-- ini tabel menu --> 
+
+ <table border="1" style="border-collapse: collapse" width="100%" 
+
+cellpadding="8" bordercolor="black"> 
+
+ <tr> 
+
+ <td>Ini nanti untuk link</td> 
+
+ </tr> 
+
+ </table> 
+
+ </td> 
+
+<!-- ini untuk kolom 2 tabel utama --> 
+
+ <td valign="top"><p align="center"><b>SELAMAT DATANG</b></p></td> 
+
+</tr> 
+
+</table> 
+
+ 
+
+</body> 
+<html> 
+
+<head> 
+
+<title>David Joko Website</title> 
+
+</head> 
+
+<body bgcolor="#D7E7F3"> 
+
+<font face="verdana"> 
+
+<table border="0" style="border-collapse: collapse" width="100%" cellpadding="8" 
+
+bordercolor="black">
+<tr> 
+
+ <td width="20%"> 
+
+ <!-- ini tabel foto --> 
+
+ <table border="0" style="border-collapse: collapse" width="100%" 
+
+cellpadding="8" bordercolor="black"> 
+
+ <tr> 
+
+ <td align="center"><img border="1" height="100" width="150" 
+
+src="gambar/fotoku.jpg"></td> 
+
+ </tr> 
+
+ </table> 
+
+ <p><hr></p> <!-- untuk memberi jarak --> 
+
+ <!-- ini tabel menu --> 
+
+ <table border="0" style="border-collapse: collapse" width="100%" 
+
+cellpadding="8" bordercolor="black"> 
+
+ <tr> 
+
+ <td><font size="2"> 
+
+ <ul> 
+
+ <li><a href="profil.html">Profil</a></li> 
+
+ <li><a href="kegiatan.html">Kegiatan</a></li> 
+
+ <li><a href="foto.html">Foto-foto</a></li> 
+
+ <li><a href="puisi.html">Puisi Teman</a></li> 
+
+ <li><a href="mailto: davidjoko@yahoo.com">Email saya</a></li> 
+
+ </ul> 
+
+ </td> 
+
+ </tr> 
+
+ </table> 
+
+ </td> 
+
+<!-- ini untuk kolom 2 tabel utama --> 
+
+ <td valign="top"> 
+
+ <p align="center"><font size="4"><b>SELAMAT DATANG DI WEBSITE DAVID 
+
+JOKO</b></font></p> 
+
+ 
+
+ <p><font size="2">Saya ucapkan terima kasih atas kunjungan anda ke website 
+
+saya. Pada website ini anda dapat melihat profil data diri saya dan kegiatan￾kegiatan yang saya lakukan. Di bawah ini adalah puisi yang saya buat beberapa 
+
+waktu lalu. Inspirasi puisi ini datang ketika saya termenung sendirian dan 
+
+memandang langit nan luas.</font></p> 
+
+ 
+
+ <p><b>Aku dan Tuhanku</b></p> 
+
+ <p><font size="2"> 
+
+ <i>Ketika aku memandang langit<br> 
+
+ aku bertanya pada pada diriku<br> 
+
+ aku...<br> 
+
+ <br> 
+
+ siapakah aku sebenarnya?<br> 
+
+ darimanakah aku berasal?<br> 
+
+ jauhkah aku dari Tuhanku?<br> 
+
+ aku....<br> 
+
+ <br> 
+
+ Tuhan...<br> 
+
+ betapa kuasanya engkau<br> 
+
+ menciptakan langit dan bumi<br> 
+
+ untuk menghidupi orang-orang<br> 
+
+ seperti aku<br> 
+
+ <br> 
+
+ aku...<br> 
+
+ apakah aku sudah mengabdi kepadamu?<br>
+rasanya hanya aku dan Engkau yang tahu<br> 
+
+ </i></font></p> 
+
+ </td> 
+
+</tr> 
+
+</table> 
+
+ 
+
+</body> 
+
+</html>
+
+
+
+
+ 
+ 
+
+

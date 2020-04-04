@@ -1,2 +1,0 @@
-# badiah
-Ini websiteku
